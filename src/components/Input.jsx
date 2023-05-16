@@ -7,6 +7,7 @@ export default function Input(props) {
         {props.label}
         <br></br>
         <input
+          className="input"
           id={props.id}
           name={props.name}
           type={props.type}
