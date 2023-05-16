@@ -1,0 +1,20 @@
+.left-container {
+  width: 274px;
+  height: 568px;
+  margin: 16px;
+  background-image: url("../../assets/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+  padding-top: 40px;
+}
+
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  height: 228px;
+  width: 223px;
+  gap: 32px;
+  margin-left: 32px;
+}

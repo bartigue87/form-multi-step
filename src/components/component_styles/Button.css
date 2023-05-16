@@ -1,0 +1,29 @@
+.button {
+  width: 123px;
+  height: 48px;
+  font-size: 16px;
+  color: #ffffff;
+  border: #022959 1px solid;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.next {
+  background-color: #022959;
+}
+
+.confirm {
+  background-color: #483eff;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.visible {
+  cursor: pointer;
+  font-size: 16px;
+  color: #9699aa;
+  background-color: transparent;
+  border: none;
+}

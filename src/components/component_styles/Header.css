@@ -1,0 +1,21 @@
+header {
+  margin: 56px 0 0 88px;
+}
+
+h1 {
+  color: #022959;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  margin: 0 0 11px 0;
+}
+
+h4 {
+  color: #9699aa;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0;
+}

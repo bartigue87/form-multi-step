@@ -1,0 +1,42 @@
+.step {
+  display: flex;
+  align-items: center;
+  width: 205px;
+  height: 33px;
+  gap: 16px;
+}
+
+.step-info {
+  text-transform: uppercase;
+}
+
+.step-info > p {
+  margin: 0;
+}
+
+.step-info p:first-child {
+  color: #abbcff;
+  font-size: 12px;
+}
+
+.step-info p:last-child {
+  color: #fff;
+  font-size: 14px;
+}
+
+.circle {
+  height: 33px;
+  width: 33px;
+  border: 1px solid #fff;
+  border-radius: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.active {
+  border-color: #bee2fd;
+  background-color: #bee2fd;
+  color: #000;
+}

@@ -1,0 +1,12 @@
+.form--container {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 264px;
+  margin: 40px 0 0 88px;
+  gap: 24px;
+}
+
+.footer--inactive {
+  visibility: hidden;
+}
