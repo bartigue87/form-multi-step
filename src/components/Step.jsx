@@ -1,7 +1,6 @@
 import "./component_styles/Step.css";
 
 export default function Step(props) {
-  console.log(props.active);
   let activeState = props.active === props.number ? "active" : "inactive";
 
   return (

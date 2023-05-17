@@ -12,6 +12,17 @@ import "./component_styles/Form.css";
 
 export default function Form() {
   const [page, setPage] = useState(0);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    tier: "",
+    plan: false,
+    online: false,
+    storage: false,
+    profile: false,
+  });
+
   const FormHeader = [
     "Personal info",
     "Select your plan",
@@ -27,13 +38,13 @@ export default function Form() {
 
   function PageDisplay() {
     if (page === 0) {
-      return <Step1Page />;
+      return <Step1Page formData={formData} setFormData={setFormData} />;
     } else if (page === 1) {
-      return <Step2Page />;
+      return <Step2Page formData={formData} setFormData={setFormData} />;
     } else if (page === 2) {
-      return <Step3Page />;
+      return <Step3Page formData={formData} setFormData={setFormData} />;
     } else if (page === 3) {
-      return <Step4Page />;
+      return <Step4Page formData={formData} setFormData={setFormData} />;
     } else if (page === 4) {
       return <Step5Page />;
     }

@@ -105,3 +105,18 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.step4--container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.step4--container > p {
+  margin: 0;
+}
+
+li {
+  list-style: circle;
+  margin: 5px;
+}
